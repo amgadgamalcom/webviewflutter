@@ -1,0 +1,16 @@
+name: webview_inject_project
+description: A Flutter project to open a WebView and inject JS after page load.
+publish_to: 'none'
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  webview_flutter: ^4.2.2
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/my_script.js
